@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         logo.setAnimation(bottomAnim);
         slogan.setAnimation(bottomAnim);
 
-        boolean b = new Handler().postDelayed((){
+        boolean b = new Handler().postDelayed(() -> {
             Intent intent = new Intent(MainActivity.this, Login.class);
             Pair[] pairs = new Pair[2];
             pairs[0] = new Pair<View,String>(image,"logo_image");
