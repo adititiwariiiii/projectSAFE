@@ -81,11 +81,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-<<<<<<< HEAD
-            android:text= "Lets Go"
-=======
             android:text= "Let's Go"
->>>>>>> 38f40fd (Initial commit)
             android:backgroundTint = "@color/darkblueslate"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"/>
